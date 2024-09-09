@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "storefront"
+version = "0.1.0"
+description = ""
+authors = ["Italo <italomarcos0010@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+langchain = "^0.2.16"
+langchain-openai = "^0.1.23"
+python-dotenv = "^1.0.1"
+requests = "^2.32.3"
+boto3 = "^1.35.13"
+drf-nested-routers = "^0.94.1"
+python-decouple = "^3.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
