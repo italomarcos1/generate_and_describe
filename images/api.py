@@ -48,8 +48,6 @@ class ImagesViewSet(viewsets.ModelViewSet):
       # f.write(image_data)
 
     url = f"https://d36abtou431oro.cloudfront.net/{filename}"
-    print("feeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeed")
-    print(url)
 
     # return super().create(request, *args, **kwargs)
     return JsonResponse({'url': url}, status=200)
